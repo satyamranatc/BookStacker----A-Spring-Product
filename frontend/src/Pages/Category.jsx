@@ -31,7 +31,7 @@ export default function Category() {
             {/* Categories Grid */}
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {categories.map((category) => (
-                    <div key={category.id} className="group bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm hover:shadow-lg transform hover:scale-105 transition-all duration-200 border border-white/50">
+                    <div key={category.CategoryId} className="group bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm hover:shadow-lg transform hover:scale-105 transition-all duration-200 border border-white/50">
                         <div className="flex items-center mb-4">
                             <div className="w-12 h-12 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-lg flex items-center justify-center mr-4">
                                 <BookOpen className="w-6 h-6 text-emerald-600" />

@@ -22,13 +22,13 @@ public class CategoryController {
 
     ArrayList <CategoryModel> allCategories = new ArrayList<CategoryModel>();
 
-    public CategoryController()
-    {
-        for(int i = 1; i<= 3; i++)
-        {
-            allCategories.add(new CategoryModel(i, "Category " + i, "Category " + i + " Description"));
-        }
-    }
+    // public CategoryController()
+    // {
+    //     for(int i = 1; i<= 3; i++)
+    //     {
+    //         allCategories.add(new CategoryModel(i, "Category " + i, "Category " + i + " Description"));
+    //     }
+    // }
 
     @GetMapping("/list")
     public List<CategoryModel> getallCategories() {
